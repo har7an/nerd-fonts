@@ -841,6 +841,8 @@ class font_patcher:
             'default': {'align': 'c', 'valign': 'c', 'stretch': 'pa', 'params': {}},
 
             # Arrow tips
+            0xe0ae: {'align': 'r', 'valign': 'c', 'stretch': 'xy', 'params': {'overlap': 0.05, 'xy-ratio': 0.7}},
+            0xe0af: {'align': 'l', 'valign': 'c', 'stretch': 'xy', 'params': {'overlap': 0.05, 'xy-ratio': 0.7}},
             0xe0b0: {'align': 'l', 'valign': 'c', 'stretch': 'xy', 'params': {'overlap': 0.02, 'xy-ratio': 0.7}},
             0xe0b1: {'align': 'l', 'valign': 'c', 'stretch': 'xy', 'params': {'xy-ratio': 0.7}},
             0xe0b2: {'align': 'r', 'valign': 'c', 'stretch': 'xy', 'params': {'overlap': 0.02, 'xy-ratio': 0.7}},
